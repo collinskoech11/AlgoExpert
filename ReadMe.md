@@ -5,7 +5,7 @@ Given two non-empty arrays of integers, write a function to determine whether th
  and so do the numbers `[2,4]`. Note that a single number in an array and the array itself are both valid subsequence of the array.
 
 
- Sample INput 
+ ### Sample INput 
  `array = [5,1,22,25,6,-1,8,10]
  sequence = [1,6,-1,10]`
 
@@ -17,3 +17,26 @@ Given two non-empty arrays of integers, write a function to determine whether th
  
  Write a function that returns an array of the sizes of all the rivers represented in the input matrix. TH esizes dont need to be in any particular order
  
+
+ ## Shift Linked LIst
+  Write a function that takes the head of a Singly LInked LIst and  an integer `k`, shifts the list in place (i.e doesnt create a brand new list )
+  by k positions , and returns its new head.
+ 
+  Shifting a LInked LIst means movin its nodes forward and backward and wrapping them around the list where appropriate.
+  For example, shifting a linked list forward by one position would make its tail become the new  head of the linked list 
+  
+  Whether nodes are moved forward or backward is determined by whether `k` is positive or negative .
+  
+  Each `Linked LIst` node has an integer `value` as well as `next` node pointing to the next node in the list or to `none`/`null`
+  if its the tai of the list.
+  
+  you can assume that the input LInked List will always have at least one node; in other words the head will never be `none`/`null`
+  
+  ### Sample Input
+  
+  `head = 0 -> 1 -> 2 -> 3 -> 4 -> 5 //the head node with value 0
+  k = 2`
+  
+  ### Sample Output 
+  
+  `4 -> 5 -> 0 -> 1 -> 2 -> 3 // the head node with value 4`
