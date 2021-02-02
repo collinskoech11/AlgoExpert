@@ -9,7 +9,18 @@
  * Whether nodes are moved forward or backward is determined by whether `k` is positive or negative .
  * 
  * Each `Linked LIst` node has an integer `value` as well as `next` node pointing to the next node in the list or to `none`/`null`
- * if its the tai of the list
+ * if its the tai of the list.
+ * 
+ * you can assume that the input LInked List will always have at least one node; in other words the head will never be `none`/`null`
+ * 
+ * ## Sample Input
+ * 
+ * `head = 0 -> 1 -> 2 -> 3 -> 4 -> 5 //the head node with value 0
+ * k = 2`
+ * 
+ * ## Sample Output 
+ * 
+ * `4 -> 5 -> 0 -> 1 -> 2 -> 3 // the head node with value 4`
  * 
  *
  */
