@@ -6,7 +6,7 @@ Given two non-empty arrays of integers, write a function to determine whether th
 
 
  ### Sample INput 
- `array = [5,1,22,25,6,-1,8,10]
+ `array = [5,1,22,25,6,-1,8,10] </br>
  sequence = [1,6,-1,10]`
 
 
