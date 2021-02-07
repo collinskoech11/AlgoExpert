@@ -34,8 +34,8 @@ Given two non-empty arrays of integers, write a function to determine whether th
   
   ### Sample Input
   
-  `head = 0 -> 1 -> 2 -> 3 -> 4 -> 5 //the head node with value 0 <br/>
-  k = 2`
+  `head = 0 -> 1 -> 2 -> 3 -> 4 -> 5 //the head node with value 0` <br/>
+  `k = 2`
   
   ### Sample Output 
   
@@ -54,8 +54,8 @@ You are given an array of postive integers representing the prices of a single s
   
   ## Sample Input
   
-  `prices = [5, 11, 3, 50, 60, 90] <br/>
-  k = 2`
+  `prices = [5, 11, 3, 50, 60, 90]` <br/>
+ ` k = 2`
   
   ## Sample Output 
   
